@@ -17,7 +17,9 @@ public class Freelancer extends Employee{
 
     @Override
     public double calculateSalary() {
-        return salary;
+        double pay = 20.8*8*(salary/20.8/8);
+        return pay;
+        
     }
 
     @Override
